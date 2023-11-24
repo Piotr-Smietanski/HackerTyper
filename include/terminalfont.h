@@ -21,7 +21,6 @@ public:
 		};
 		
 	enum struct foreground{
-		//~ white = 29,
 		black_dark = 30,
 		red_dark,
 		green_dark,
@@ -43,15 +42,6 @@ public:
 		};
 		
 	enum struct background{
-		//~ black = 40,
-		//~ red,
-		//~ green,
-		//~ yellow,
-		//~ blue,
-		//~ cyan,
-		//~ aqua,
-		//~ white
-		
 		black_dark = 40,
 		red_dark,
 		green_dark,

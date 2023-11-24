@@ -4,8 +4,6 @@ void printhelp()
 {
 	const char tab1[] = "\t";
 	const char tab2[] = "\t\t";
-	//~ const char tab1[] = "    ";
-	//~ const char tab2[] = "        ";
 	TerminalFont  underscore(TerminalFont::style::underline,TerminalFont::foreground::white, TerminalFont::background::black_dark);
 	TerminalFont  normal = TerminalFont();
 	

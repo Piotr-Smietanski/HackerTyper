@@ -15,7 +15,6 @@
 //defaults
 bool         mode_loopoutput   = false;
 bool         mode_interactive  = false;
-bool         mode_rainbow      = false;
 unsigned int slpdur            = DEFAULT_SLEEP_DURATION;
 std::string  inputfilename     = "";
 TerminalFont termfontcolor;
@@ -75,6 +74,7 @@ bool setarg(const char** arg, int iout, bool islast)
 //returns true if analyzed arg was composed of 2 parts
 //throws runtime_error if argument was invalid
 {
+	//welcome to if else hell. should have used "getopt_long"...
 	if (Arg(arg[iout]) == Arg("-d"))
 	{
 		unsigned int i = 0;
@@ -244,7 +244,6 @@ int handle_args(const int argc, const char** argv)
 
 void signal_handler(int s)
 {
-	//~ printf("Caught signal %d\n",s);
 	std::cout << TerminalFont();
 	std::cout << "\033[2J\033[1;1H";                                    //clear screen
 	
