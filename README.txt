@@ -17,7 +17,7 @@ Only "-f" argument is mandatory which is a path to a file that will be
 printed.
 
 //----------------------------------------------------------------------
-
+```
 Arguments:
         -h
                 Displays this help.
@@ -40,5 +40,5 @@ Arguments:
         -fs style
                 Changes font style. Options are:
                 regular, bold, thin, cursive, underline, blink
-
+```
 //----------------------------------------------------------------------
