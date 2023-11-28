@@ -1,11 +1,11 @@
-
+```
     __  __           __            ______                     
    / / / /___ ______/ /_____  ____/_  __/_  ______  ___  _____
   / /_/ / __ `/ ___/ //_/ _ \/ ___// / / / / / __ \/ _ \/ ___/
  / __  / /_/ / /__/ ,< /  __/ /   / / / /_/ / /_/ /  __/ /    
 /_/ /_/\__,_/\___/_/|_|\___/_/   /_/  \__, / .___/\___/_/     
                                      /____/_/                 
-
+```
 
 HackerTyper is a toy program that simulate hacking scenes from movies.
 Defult operation mode prints segments of text without user interaction.
